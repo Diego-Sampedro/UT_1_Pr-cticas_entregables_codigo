@@ -81,7 +81,7 @@ fun main() {
         ficheroTemporal.delete()
 
         // 3.b Mostrar código y tiempo
-        println("[código $codigo · $milisegundos ms]")
+        println("[código $codigo - $milisegundos ms]")
 
         // 3.d Historial
         File("historial.txt").appendText(
